@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <!-- Les élements suivants permettent d'appeller Bootstrap -->
+   <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+   <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="paged'acceuil.css">
+   <title>Page d'acceuil</title>   
+</head>
+<body >
+
+	<div class="container-fluid">
+
+        <!-- on crée le premier bloc qui va contenir la phrase projet webdynamique 2020-->
+		<div class="row">
+            
+            <!-- on défini les caractéristiques de ce block  -->
+			<div class="col-sm-12 text-center" style="height:30px; background-color:#F8FAFA">
+                 <table class="table">
+
+                 	<tr>
+                 		<td> <font face="Aparajita"> <b>PROJET WEB DYNAMIQUE 2020</b> </font></td>
+                 	</tr>
+                 	
+                 </table>
+			</div>
+		</div>
+
+ 
+        <!-- on crée le deuxième bloc qui va contenir le logo du site et la barre de recherche-->
+ 		<div class="row">
+            
+            <!-- on défini les caractéristiques de ce block  -->
+			<div class="col-sm-12" style="height:90px; background-color: #4B4A47 ">
+			         <!-- on insere le logo  -->
+			    	<a href="paged'acceuil.html"><img src="logo.png" class="img-fluid" height="70" width="300"></a>
+			    	<!-- on insere la barre de recherche  -->
+			    	<input type="search" style="width: 600px"  name="rechercher">
+			    	<button style="background-color: #06A28F; color: white"><font face="Berlin Sans FB">Rechercher</font></button>
+			</div>
+			   
+
+			
+		</div>
+
+ 
+        
+        <!-- on crée le troisième bloc qui va contenir le menu-->       
+		<div class="row">
+      
+            <!-- on défini les caractéristiques de ce block  -->
+			<div class="col-sm-12" id="menu" style="height:45px; background-color: #06A28F">
+			   <nav>
+                 	  
+                 	  <!-- on crée une liste avec les élements du menu--> 
+                 	  <ul id="ul"> 
+                 	  	<li class="deroulant"> <a href="categories.html">Categories</a>
+                 	  	<!-- on crée une sous-liste avec les élements du sous-menu--> 
+                         <ul class="sous">
+                         	<li><a href="#">Ferrailles ou Tresor</a></li>
+                         	<li><a href="#">Bon pour le Musee</a></li>
+                         	<li><a href="#">Accessoires VIP</a></li>
+                         </ul>
+
+                 	  	</li>
+                 		<li class="deroulant"><a href="achat.html"> Achat</a>
+                 		   <!-- on crée une sous-liste avec les élements du sous-menu--> 
+                           <ul class="sous">
+                         	<li><a href="#">Encheres</a></li>
+                         	<li><a href="#">Achetez-le Maintenant</a></li>
+                         	<li><a href="#">Meilleure Offre</a></li>
+                           </ul>
+                 		</li>
+                 		<li><a href="vendre.html">Vendre</a></li>
+                 		<li><a href="clients.html">Votre compte</a></li>
+                 		<li><a href="admin.html">Admin</a></li>
+                 	  </ul>
+
+               </nav>
+				
+			</div>	
+		</div>
+
+		<!-- on crée d'autres blocs qui vont constituer le corps de la page du site web --> 	
+		<div class="row" >
+				<div  class="col-sm-4" style=" background-color: #22C852; height: 250px ">
+                        <h1 style="color: white"> <font face="Bradley Hand ITC"> <b>Nous vous proposons les meilleurs prix du moment
+                       </b></font></h1>
+                       
+                        <button class="button text-center" >
+                        voulez-vous en savoir plus!
+                        </button>
+
+				</div>
+
+					<div  class="col-sm-4" style=" height:250px ">
+                      <img src="images/3.jpg" height="230px" width="100%">
+                      
+				</div>
+
+
+				<div  class="col-sm-4" style=" background-color: #99CB50 ; height: 250px ">
+                        <h1 style="color: white"> <font face="Bradley Hand ITC"> <b> un bon de reduction de 05 euros pour vos premiers achats
+                       </b></font></h1>
+                       
+                        <button class="button2 text-center" >
+                        Recuperez-le!
+                        </button>
+
+				</div>
+
+            
+        </div>
+
+        <div class="row">
+				
+				<div  class="col-sm-4" style=" height:250px ">
+                      <img src="images/1.jpg" height="230px" width="100%">
+                     <div class="caption"><p><a href="#">400 euros</a></p></div>
+                      
+				</div>
+				<div  class="col-sm-4" style=" height:250px ">
+                      <img src="images/2.jpg" height="230px" width="100%">
+                     <div class="caption"><p><a href="#">700 euros</a></p></div>
+                      
+				</div>
+				<div  class="col-sm-4 text-center" style=" background-color: #2B416F; height: 250px ">
+                        <h1 style="color: white"> <font face="Bradley Hand ITC"> <b> les meilleurs  articles se trouvent dans le plus grand magasin en ligne
+                       </b></font></h1>
+                       
+				</div>
+
+
+
+            
+        </div>
+        <div class="row">
+				<div  class="col-sm-4" style="height:250; background-color: #C82254">
+                       <p> <h1 style="color: white"> <font face="Bradley Hand ITC"><strong>Livraison gratuite partout en France, meme au font de la campagne</font></h1>
+                       	<button class="button1 text-center" >
+                      Livraison gratuite!
+                        </button>
+				</div>
+
+            
+        </div>
+           
+	</div>		
+			
+		 
+	<!-- on crée le bas de la page web--> 
+	
+	 <footer class="page-footer" >
+
+
+	    <!-- on crée un bloc avec les élements du footer--> 
+		<div class="row">
+             <!-- on défini les caractéristiques de ce block  -->
+			<div class="col-lg-4 col-md-4 col-sm-12">
+			   <!-- on crée une liste avec les principaux élement qu'on retrouve dans Acheter--> 
+			   <ul id="foot">
+			   	<li><a href="#" style="color: white"><strong>ACHETER</strong></a></li>
+			   	<li><a href="#" style="color: white">Encheres</a></li>
+                <li><a href="#" style="color: white">Achetez-le Maintenant</a></li>
+                <li><a href="#" style="color: white">Meilleure Offre</a></li>
+			   </ul>   	
+			</div>
+           
+
+	        <!-- on défini les caractéristiques de ce block  -->
+			<div class="col-lg-4 col-md-4 col-sm-12">
+			   <!-- on crée une liste avec les principaux élement qu'on retrouve dans Vendre--> 
+			   <ul id="foot">
+			   	<li><a href="#" style="color: white"><strong>Vendre</strong></a></li>
+			   	
+			   </ul>   	
+			</div>
+
+			   <!-- on crée un block A propos d'Ebay ECE avec les détails--> 
+			<div class="col-lg-4 col-md-4 col-sm-12" >
+			   
+	           
+			   <ul id="foot">
+			   	<li><a href="#" style="color: white"><strong>A propos d'Ebay ECE</strong></a></li>
+			   	<li>Sites de vente creer par les etudiants de l'ECE</li>
+			   	<li>Elue meilleur site de l'annee 2020</li>
+			   	<li>#Restez chez vous</li>
+			   </ul>   	
+			</div>
+
+
+	   <div class="footer-copyright text-center"> &copy; 2019 Copyright | Droit d'auteur: webDynamique.ece.fr
+
+       </div>
+	</footer>
+  
+  
+ 
+</body>
+</html>
+
