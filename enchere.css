@@ -1,0 +1,102 @@
+
+.description{
+	background-color: #1093F4;
+	font-family: Castellar, sans-serif;
+	padding-top: 10px;
+	text-align: center;
+	color: #f2f3f4 ;
+	height: 50px;
+}
+.description1{
+	background-color: #F4F7EE ;
+	font-family:Times New Roman, sans-serif;
+	
+	text-align: center;
+	color: black ;
+	height: 30px;
+}
+.description2{
+	background-color: #F4F7EE ;
+	font-family:Times New Roman, sans-serif;
+	
+	text-align: center;
+	color: black ;
+	height: 30px;
+}
+.description3{
+	background-color: #F4F7EE ;
+	font-family:Times New Roman, sans-serif;
+	
+	text-align: center;
+	color: black ;
+	height: 30px;
+}
+
+nav ul::after {
+content: "";
+ display: table;
+ clear :both;
+}
+
+
+nav  a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+
+}
+
+nav  a:hover {
+   color: orange;
+   border-bottom: 2px solid gold;
+}
+
+
+
+/*caractéristiques du footer*/
+.page-footer 
+{
+    background-color: #4B4A47;
+    color: #ccc;
+    padding: 30px 0 15px;
+
+}
+.footer-copyright 
+{
+    color: #13F4F4 ;
+    padding: 40px 0;
+}
+#foot{
+	list-style-type: none;
+}
+
+/*caractéristiques de savoir plus*/
+.button{
+	background-color:#22C852;
+	 color: white;
+	padding: 10px;
+	margin: 20px;
+}
+
+/*caractéristiques de livraison gratuite*/
+.button1{
+	background-color: #C82254;
+	 color: white;
+	padding: 10px;
+	margin: 20px;
+}
+/*caractéristiques de recuperer le*/
+.button2{
+	background-color: #99CB50 ;
+	 color: white;
+	padding: 10px;
+	margin: 20px;
+}
+
+
+
+
+
+
