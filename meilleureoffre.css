@@ -72,25 +72,3 @@ nav  a:hover {
 	list-style-type: none;
 }
 
-/*caractéristiques de savoir plus*/
-.button{
-	background-color:#22C852;
-	 color: white;
-	padding: 10px;
-	margin: 20px;
-}
-
-/*caractéristiques de livraison gratuite*/
-.button1{
-	background-color: #C82254;
-	 color: white;
-	padding: 10px;
-	margin: 20px;
-}
-/*caractéristiques de recuperer le*/
-.button2{
-	background-color: #99CB50 ;
-	 color: white;
-	padding: 10px;
-	margin: 20px;
-}
