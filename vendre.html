@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <!-- Les élements suivants permettent d'appeller Bootstrap -->
+   <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+   <link rel="stylesheet" type="text/css" href="vendre.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>  
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   <script type="text/javascript">      
+        $(document).ready(function(){           
+            $('.header').height($(window).height());      
+        }); 
+	</script>
+   <title>Déposer votre item</title>   
+</head>
+
+
+<body style="background-color:  #424242 ">
+
+	<div class="row">
+        <!-- on défini les caractéristiques de ce block  -->
+		<div class="col-sm-12" style="height:90px; background-color: #4B4A47 ">
+			    <!-- on insere le logo  -->
+			    <a href="paged'acceuil.html"><img src="../images/logo.png" class="img-fluid" height="70" width="300"></a>
+			    <!-- on insere la barre de recherche  -->
+			    <button style="background-color: #06A28F; color: white; float:right; margin-top: 30px; margin-right: 5px"><font face="Berlin Sans FB">Rechercher</font></button>
+			    <input type="search" style="width: 600px; float:right; margin-top: 30px; margin-right: 5px"  name="rechercher">
+		</div>
+	</div>
+
+	<nav class="navbar sticky-top navbar-expand-xl" style="width:1368px">
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	        <ul class="navbar-nav">
+		    	<li class="nav-item active">
+		        	<a class="nav-link" href="paged'acceuil.html"><b>Acceuil</b></a>
+		        </li>
+		    	<li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				          Catégories
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				        <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Ferrailles ou Trésor</a>
+				          <a class="dropdown-item" href="#">Bon pour le Musée</a>
+				          <a class="dropdown-item" href="#">Accessoires VIP</a>
+				        <div class="dropdown-divider"></div>
+				        </div>
+				</li>
+				<li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				          Achats
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				        <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Enchères</a>
+				          <a class="dropdown-item" href="#">Achetez-le Maintenant</a>
+				          <a class="dropdown-item" href="#">Meilleure Offre</a>
+				        <div class="dropdown-divider"></div>
+				        </div>
+				</li>
+				<li class="nav-item">
+	                    <a class="nav-link" href="./Vendre/vendre.html"><center>Vendre</center></a>';
+	            </li>                        
+	            <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				          Se connecter
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				        <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="Connexion/Votre Compte/connexionclient.html">Votre compte</a>
+				          <a class="dropdown-item" href="Connexion/Vendeur/connexionvendeur.html">Vendeur</a>
+				          <a class="dropdown-item" href="Connexion/Administrateur/connexionadmin.html">Administrateur</a>
+				        <div class="dropdown-divider"></div>
+				        </div>
+
+				</li>  
+	        </ul>
+	    </div>
+	</nav>
+
+	<br>
+
+	<div class="container features">
+		<div class="col-lg-12 col-md-4 col-sm-12">
+	    	<center><font size="3%">
+                <div class="description">       
+			        <h4>ECE Ebay vous souhaite la bienvenue !</h4>
+			        <h5>Veuillez remplir les informations concernant votre item ci-dessous</h5>                 
+			    </div> 
+				<form action="itm.php" method="post"  class="login100-form validate-form">
+					<br>
+					<table>
+						<tr>
+							<td>Numero d'identification:</td>
+							<td><input type="text" name="id"></td>
+						</tr>
+						<tr>
+							<td>Nom:</td>
+							<td><input type="text" name="nom"></td>
+						</tr>
+						<tr>
+							<td>Description:</td>
+							<td><input type="text" size="50" style="height:50px;" name="dscr"></td>
+						</tr>
+						<tr>
+							<td>Categorie:</td>
+							<td><input type="radio" name="cat" value="ft">Feraille ou tresor<br>
+								<input type="radio" name="cat" value="mus">Bon pour le musée<br>
+								<input type="radio" name="cat" value="vip">Accessoire VIP<br></td>
+
+						</tr>
+						<tr>
+							<td>Type de vente 1:</td>
+							<td><input type="radio" name="vnt" value="venterapide">Vente rapide<br>
+								<input type="radio" name="vnt" value="meilleurprix">Meilleur prix<br>
+								<input type="radio" name="vnt" value="encheres">Ventes aux encheres<br></td>
+						</tr>
+						<tr>
+							<td>Type de vente 2:</td>
+							<td><input type="radio" name="vnt2" value="venterapide">Vente rapide<br>
+								<input type="radio" name="vnt2" value="meilleurprix">Meilleur prix<br>
+								<input type="radio" name="vnt2" value="encheres">Ventes aux encheres<br></td>
+						</tr>
+						<tr>
+							<td>Prix:</td>
+							<td><input type="text" name="prix"></td>
+						</tr>
+						<tr>
+							<td>Photos:</td>
+							<td><input type="file" name="photo"></td>
+						</tr>
+						<tr>
+							<td>Vidéos:</td>
+							<td><input type="file" name="vid"></td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center">
+							<input class="button" type="submit" name="button1" value="Déposer mon item"></td>
+						</tr>
+					</table>
+				</form>
+			</font></center>
+		</div>
+	</div>
+</body>
+</html>
