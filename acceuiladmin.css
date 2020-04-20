@@ -1,0 +1,59 @@
+
+
+
+.login100-form  {
+	color: white;
+	background-color: grey;
+	height: 300px;
+	max-width: 570px;
+    margin-left: auto;
+    border:solid 2px;
+    margin-right: auto }
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+.description{
+	background-color: #2A8A73 ;
+	font-family: Aparajita, sans-serif;
+	padding-top: 0px;
+	max-width: 570px;
+	text-align: center;
+	color: #f2f3f4 ;
+	height: 120px;
+	border-right:solid 2px;
+	border-left:solid 2px;
+	border-top:solid 2px;
+}
+
+.description_bouton{
+	background-color: #2A8A73 ;
+	font-family: Aparajita, sans-serif;
+	padding-top: 10px;
+	max-width: 570px;
+	text-align: center;
+	color: #f2f3f4 ;
+	height: 80px;
+	border-right:solid 2px;
+	border-left:solid 2px;
+	border-bottom:solid 2px;
+}
+
+.button {
+  background-color: #2A8A73; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px ;
+  font-size: 18px;
+  margin-top: 15px;
+  border:solid 2px;
+}
+
+
